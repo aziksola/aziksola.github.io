@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-color: #181733;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+}
+
+.main-header {
+    padding: 45px 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar > .container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: end;
+}
+
+.name {
+    font-size: 30px;
+    text-align: center;
+}
+
+.position {
+    font-size: 70px;
+    text-align: center;
+}
+
+.location {
+    font-size: 65px;
+    text-align: center;
+    color: red;
+}
+
+.description {
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid lightblue;
+    overflow: hidden;
+}
+
+.page-naming {
+    font-size: 40px;
+}
+
+.gallery-row {
+    align-items: center;
+    justify-content: center;
+}
+
+header img,
+footer img {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 7px 7px 13px rgb(0 0 0 / 65%);
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+footer img {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+span.match-results {
+    display: block;
+    padding: 10px;
+    background: #004c99;
+    border-radius: 10px;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.modal-content {
+    background-color: #181733;
+}
+
+div#divButton > button {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+div#divButton > button.active {
+    background: #181733;
+    opacity: 1;
+}
+
+div#divButton > button:hover {
+    opacity: 1;
+}
+
+button.carousel-control-next, button.carousel-control-prev {
+    background: transparent;
+    border: 0;
+}

@@ -1,0 +1,14 @@
+{
+    "images":
+    [
+        {"url":"img/gallery/1.webp", "caption":"Image 1"},
+        {"url":"img/gallery/2.webp", "caption":"Image 2"},
+        {"url":"img/gallery/3.webp", "caption":"Image 3"},
+        {"url":"img/gallery/4.webp", "caption":"Image 4"},
+        {"url":"img/gallery/5.webp", "caption":"Image 5"},
+        {"url":"img/gallery/6.webp", "caption":"Image 6"},
+        {"url":"img/gallery/7.webp", "caption":"Image 7"},
+        {"url":"img/gallery/8.webp", "caption":"Image 8"},
+        {"url":"img/gallery/9.webp", "caption":"Image 9"} 
+    ]
+}
