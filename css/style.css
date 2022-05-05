@@ -95,6 +95,7 @@ span.match-results {
     padding: 10px;
     background: #004c99;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
 .table td, .table th {
